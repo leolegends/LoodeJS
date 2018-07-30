@@ -1,0 +1,16 @@
+{
+  "name": "linodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Leonardo Ribeiro",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.0",
+    "node-notifier": "^5.2.1",
+    "shelljs": "^0.8.2"
+  }
+}

@@ -1,5 +1,6 @@
 module.exports = {
     projeto: 'Dev',
-    diretorio: './',
+    diretorio_projeto: './',
+    diretorio_so: '/var/www/',
     arquivos: '*'
 };

@@ -6,10 +6,16 @@ const config       = require('./config');
 
 /* Notificacoes do S.O */
 
-var watcher = watch(config.diretorio, { recursive: true });
+var watcher = watch(config.diretorio_projeto, { recursive: true });
  
 watcher.on('change', function(evt, name) {
     servicos.Nprojeto(notifier, name, evt);
+});
+
+var watcher_so = watch(config.diretorio_so, { recursive: true });
+ 
+watcher_so.on('change', function(evt, name) {
+    servicos.Nso(notifier, name, evt);
 });
 
 http.createServer().listen(8000);

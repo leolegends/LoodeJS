@@ -10,7 +10,9 @@
   "author": "Leonardo Ribeiro",
   "license": "ISC",
   "dependencies": {
+    "async": "^2.6.1",
     "http": "0.0.0",
+    "interval-promise": "^1.2.0",
     "node-notifier": "^5.2.1",
     "shelljs": "^0.8.2"
   }
